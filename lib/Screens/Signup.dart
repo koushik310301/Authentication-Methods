@@ -77,7 +77,7 @@ class _SignupState extends State<Signup> {
                 if(result!=null){
                   Navigator.pushNamed(context,Home.id);
                 }
-                print("Signed Up with google");
+                print("Google Sign In Success");
                 print(result.toString());
               },
             ),
