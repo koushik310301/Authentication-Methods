@@ -71,7 +71,7 @@ class _SignupState extends State<Signup> {
             ),
             SizedBox(height: 25),
             ElevatedButton(
-              child: Text("SignUp with Google"),
+              child: Text("Google SignIn"),
               onPressed:()async {
                 dynamic result=await signInWithGoogle();
                 if(result!=null){
